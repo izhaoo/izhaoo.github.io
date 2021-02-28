@@ -182,6 +182,12 @@
             <h3 class="archive-year">2021 年</h3>
           
           <div class="archive-item">
+            <a class="archive-date" href="/2021/02/28/raspi-camera-push-stream/">02/28</a>
+            <a class="archive-title" href="/2021/02/28/raspi-camera-push-stream/">树莓派 - 摄像头推流</a>
+          </div>
+        
+          
+          <div class="archive-item">
             <a class="archive-date" href="/2021/02/03/raspi-johnny-five-lcd1602/">02/03</a>
             <a class="archive-title" href="/2021/02/03/raspi-johnny-five-lcd1602/">树莓派 - JS 驱动 LCD1602</a>
           </div>
@@ -411,7 +417,7 @@
     }
 
     const addCount = (Counter) => {
-      const url = $(".leancloud").length === 1 ? $(".leancloud").attr('id').trim() : 'http://izhaoo.gitee.io';
+      const url = $(".leancloud").length === 1 ? $(".leancloud").attr('id').trim() : 'https://www.izhaoo.com';
       var query = new Counter;
       query.save({
         words: url
