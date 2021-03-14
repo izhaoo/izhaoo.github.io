@@ -1119,7 +1119,6 @@ body span {
   }
 }
 .preview .preview-image .preview-overlay {
-  width: 100%;
   position: absolute;
   bottom: -1px;
   left: -100vw;
